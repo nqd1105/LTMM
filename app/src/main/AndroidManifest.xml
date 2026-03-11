@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ly_Thuyet_Mat_Ma">
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RSAActivity"
+            android:exported="false"
+            android:label="@string/rsa_title" />
+        <activity
+            android:name=".ElGamalActivity"
+            android:exported="false"
+            android:label="@string/elgamal_title" />
+        <activity
+            android:name=".QuickPowActivity"
+            android:exported="false"
+            android:label="Lũy thừa nhanh" />
+        <activity
+            android:name=".InverseModActivity"
+            android:exported="false"
+            android:label="Nghịch đảo Modulo" />
+        <activity
+            android:name=".PrimitiveRootActivity"
+            android:exported="false"
+            android:label="Tìm phần tử sinh" />
+    </application>
+
+</manifest>

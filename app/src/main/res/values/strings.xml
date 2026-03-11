@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Quang Dũng</string>
+    <string name="rsa_title">Hệ mã RSA</string>
+    <string name="elgamal_title">Hệ mã ElGamal</string>
+    <string name="select_system">Chọn hệ mã</string>
+    <string name="encrypt">Mã hóa</string>
+    <string name="decrypt">Giải mã</string>
+    <string name="calculate">Tính toán</string>
+    <string name="btn_create_key">Tạo khóa</string>
+    <string name="login_title">Đăng nhập</string>
+    <string name="login_subtitle">Vui lòng đăng nhập để tiếp tục</string>
+    <string name="rsa_key_summary">Kết luận:\n- Khóa công khai Pk = (n, e) = (%1$d, %2$d)\n- Khóa bí mật Sk = d = %3$d</string>
+    <string name="elgamal_key_summary">Kết luận:\n- Khóa công khai Pk = (p, g, y) = (%1$d, %2$d, %3$d)\n- Khóa bí mật Sk = x = %4$d</string>
+    <string name="n_phi_format">1. Tính n = p * q = %1$d * %2$d = %3$d\n2. Tính phi(n) = (p-1)*(q-1) = %4$d * %5$d = %6$d</string>
+    <string name="d_format">3. Tìm d = e^-1 mod phi(n) = %1$d</string>
+    <string name="rsa_enc_result">Bản mã C = M^e mod n = %1$d^%2$d mod %3$d = %4$d</string>
+    <string name="rsa_dec_result">Thông điệp M = C^d mod n = %1$d^%2$d mod %3$d = %4$d</string>
+    <string name="y_format">y = g^x mod p = %1$d^%2$d mod %3$d = %4$d</string>
+    <string name="elgamal_result_format">Bản mã (c1, c2) = (%1$d, %2$d)\nc1 = g^z mod p = %3$d^%4$d mod %5$d = %1$d\nc2 = (y^z * M) mod p = (%6$d^%4$d * %7$d) mod %5$d = %2$d</string>
+    <string name="elgamal_dec_result_format">s = c1^x mod p = %1$d^%2$d mod %3$d = %4$d\ns^-1 mod p = %5$d\nThông điệp M = (c2 * s^-1) mod p = (%6$d * %5$d) mod %3$d = %7$d</string>
+    <string name="error_pq">Vui lòng nhập p và q hợp lệ</string>
+    <string name="error_phi">Hãy tính n và phi(n) trước</string>
+    <string name="error_e">Vui lòng nhập e hợp lệ</string>
+    <string name="error_complete">Vui lòng hoàn tất các bước trên</string>
+    <string name="error_input">Vui lòng nhập giá trị hợp lệ</string>
+    <string name="error_elgamal_params">Vui lòng nhập p, g, x hợp lệ</string>
+
+    <string name="hint_p">Nhập p</string>
+    <string name="hint_q">Nhập q</string>
+    <string name="hint_e">Nhập e</string>
+    <string name="hint_g">Nhập g</string>
+    <string name="hint_x">Nhập x</string>
+    <string name="hint_m">Nhập thông điệp M</string>
+    <string name="hint_z">Nhập số ngẫu nhiên z</string>
+    <string name="hint_c1">Nhập c1</string>
+    <string name="hint_c2">Nhập c2</string>
+    <string name="hint_m_c">Nhập M (mã hóa) hoặc C (giải mã)</string>
+    <string name="label_euclid_table">Bảng tính Euclid mở rộng (tìm d):</string>
+    <string name="label_pow_table">Bảng tính lũy thừa nhanh:</string>
+    <string name="label_y_table">Bảng tính y = g^x mod p:</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+</resources>

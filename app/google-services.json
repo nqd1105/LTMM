@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "927830266762",
+    "project_id": "ltmm-c567d",
+    "storage_bucket": "ltmm-c567d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927830266762:android:a8a361450fcdaefd0d2e73",
+        "android_client_info": {
+          "package_name": "com.example.ly_thuyet_mat_ma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpV4-HplYpT_MY8Y7GI_bPaVAvt3Zfl2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
